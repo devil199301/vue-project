@@ -22,7 +22,7 @@ const routes = [
 ];
 
 const router = new VueRouter({
-  mode: "history",
+  // mode: "history", github page 首頁會壞掉
   routes
 });
 
