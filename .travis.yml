@@ -7,9 +7,12 @@ cache: npm
 script: npm run build
 
 deploy:
-provider: pages
-skip_cleanup: true
-github_token: $GITHUB_TOKEN
-local_dir: dist
+    provider: pages
+    skip_cleanup: true
+    github_token: $GITHUB_TOKEN
+    local_dir: dist
+    repo: devil199301/vue-project
+    target_branch: gh-pages
+
 on:
   branch: master
