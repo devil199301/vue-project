@@ -14,5 +14,6 @@ deploy:
     repo: devil199301/vue-project
     target_branch: gh-pages
 
+
 on:
   branch: master
