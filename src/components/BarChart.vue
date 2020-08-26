@@ -24,7 +24,6 @@ export default {
           ) / 100
       }))
       .sort((a, b) => a.average - b.average);
-    console.log(data);
 
     // 設定 svg 的寬高
     const chart = d3
