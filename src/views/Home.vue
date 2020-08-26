@@ -27,7 +27,7 @@ export default {
   name: "Home",
   data: function() {
     return {
-      show: "pie"
+      show: "line"
     };
   },
   components: {
